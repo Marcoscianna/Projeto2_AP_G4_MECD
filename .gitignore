@@ -1,0 +1,17 @@
+# Local datasets (keep out of Git)
+dataset/
+**/dataset/
+
+# Local training artifacts
+models/
+**/*.pth
+**/*.pt
+**/*.ckpt
+
+# Python cache and environments
+__pycache__/
+*.pyc
+.venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
